@@ -26,7 +26,7 @@ const default_config = {
   disabled: [],
   localIcons: false,
   fastlink: "javascript:window.top.location.href='https://gemini.google.com/app';",
-  openLastVisitedTab: true,
+  openLastVisitedTab: false,
   tabs: [
     {
       name: "chi ll",
@@ -35,12 +35,6 @@ const default_config = {
         {
           name: "Social Media",
           links: [
-          {
-            name: "whatsapp",
-            url: "https://web.whatsapp.com/",
-            icon: "brand-whatsapp",
-            icon_color: "#a9b665",
-          },
           {
             name: "youtube",
             url: "https://www.youtube.com/",
@@ -52,6 +46,12 @@ const default_config = {
             url: "https://www.tiktok.com/",
             icon: "brand-tiktok-filled",
             icon_color: "#8C32AD",
+          },
+          {
+            name: "whatsapp",
+            url: "https://web.whatsapp.com/",
+            icon: "brand-whatsapp",
+            icon_color: "#a9b665",
           },
           {
             name: "vk",
