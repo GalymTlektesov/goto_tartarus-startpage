@@ -136,7 +136,7 @@ const default_config = {
           links: [
             {
               name: "github",
-              url: "https://github.com/",
+              url: "https://github.com/GalymTlektesov",
               icon: "brand-github",
               icon_color: "#7daea3",
             },
